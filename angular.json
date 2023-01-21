@@ -8,6 +8,9 @@
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
+        },
+        "@schematics/angular:application": {
+          "strict": true
         }
       },
       "root": "",
@@ -17,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/emlak-portali",
+            "outputPath": "dist/Emlak_Portali",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -25,7 +28,9 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/firebase-messaging-sw.js",
+              "src/manifest.json"
             ],
             "styles": [
               "src/styles.scss"
@@ -100,8 +105,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "Emlak_Portali:build:production",
+            "firebaseProject": "emlakportal-fe1e3",
+            "firebaseHostingSite": "emlakportal-fe1e3"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b0e8103c-0820-4f33-bae5-369e61717305"
   }
 }

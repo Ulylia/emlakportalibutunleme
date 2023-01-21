@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "emlakportal-fe1e3": {
+      "hosting": {
+        "Emlak_Portali": [
+          "emlakportal-fe1e3"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "emlakportal-fe1e3"
+  }
+}

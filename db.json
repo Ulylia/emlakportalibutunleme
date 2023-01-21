@@ -1,0 +1,63 @@
+{
+  "categories": [
+    {
+      "katId": 6,
+      "katadi": "Arsalar",
+      "kaytarih": "1673344690181",
+      "duztarih": "1673546709381"
+    },
+    {
+      "katId": 7,
+      "katadi": "Konutlar",
+      "kaytarih": "1673344697586",
+      "duztarih": "1673546716213"
+    },
+    {
+      "katId": 8,
+      "katadi": "Ticari",
+      "kaytarih": "1673344710211",
+      "duztarih": "1673344710211"
+    },
+    {
+      "katId": 9,
+      "katadi": "kategori111",
+      "kaytarih": "1673546833583",
+      "duztarih": "1674142646826"
+    }
+  ],
+  "users": [
+    {
+      "uid": 1,
+      "displayName": "Tuğçe Gümüştekin",
+      "email": "kubratugce1@gmail.com",
+      "admin": "1",
+      "parola": "123456",
+      "kaytarih": "1668070115626",
+      "duztarih": "1673543132213"
+    },
+    {
+      "uid": 2,
+      "displayName": "Nesip Durbay",
+      "email": "nesip@mail.com",
+      "admin": "1",
+      "parola": "260320",
+      "kaytarih": "1668070283323",
+      "duztarih": "1673546570567"
+    },
+    {
+      "uid": 3,
+      "displayName": "Demirhan Kaya",
+      "email": "demir@mail.com",
+      "admin": "1",
+      "parola": "123",
+      "kaytarih": "1670015503731",
+      "duztarih": "1670338138079"
+    }
+   
+  ],
+  "houses": [
+
+
+  ]
+
+}
